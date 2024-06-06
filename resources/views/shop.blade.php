@@ -8,7 +8,7 @@
     <div class="phone-menu">
         <!-- dropdown open and close with js -->
       <img src="images/menu-black.png" class="menubtn" onclick="openNav()">
-      <div id="phoneNav" class="menu">
+      <div class="menu">
         <img src="images/close.png" class="closebtn" onclick="closeNav()" alt="">
           <div class="dropdown">
             <div class="dropdown-links white-color">
@@ -72,7 +72,7 @@
   <!-- items -->
   <div class="shop-content-container">
     <div class="merchandise-item">
-      <img src="images/merchandise-mouse.png" alt="">
+      <img src="{{ asset('images/merchandise-mouse.png" alt="">
       <div class="slide-content">
         <a href="{{ route('detail-mouse') }}">Experience Precision Gaming with the Golden Fighters Mouse</a>
         <div class="slide-shop-and-price">
@@ -158,8 +158,9 @@
 </section>
 </div>
 
-      <script src="{{ asset('js/shop.js') }}"></script>
   </body>
 </html>
 
     </x-public-layout>
+
+        @vite(['resources/js/shop.js'])

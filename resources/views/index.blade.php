@@ -7,7 +7,7 @@
             <div class="phone-menu">
                 <!-- dropdown open and close with js -->
                 <img src="images/menu-white.png" class="menubtn" onclick="openNav()">
-                <div id="phoneNav" class="menu">
+                <div class="menu">
                     <img src="{{ asset('images/close.png') }}" class="closebtn" onclick="closeNav()" alt="">
                     <div class="dropdown">
                         <div class="dropdown-links white-color">
@@ -228,7 +228,8 @@
 
     </section>
 </div>
-      <script src="{{ asset('js/index.js') }}"></script>
 </body>
 </html>
     </x-public-layout>
+
+      @vite(['resources/js/index.js'])

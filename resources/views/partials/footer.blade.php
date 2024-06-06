@@ -5,9 +5,9 @@
             <img src="images/logo/logo-full-black.svg" alt="">
             <div class="footer-links">
                 <div class="footer-a-links">
-                    <a href="index.html">Home</a>
-                    <a href="shop.html">Merchandise shop</a>
-                    <a href="contact.html">Contact</a>
+                  <a href="{{ route('home') }}">Home</a>
+                  <a href="{{ route('shop') }}">Merchandise Shop</a>
+                  <a href="{{ route('contact') }}">Contact</a>
                 </div>
                 <div class="footer-social-icons">
                     <a id="footer-instagram" href="instagram.com"></a>
