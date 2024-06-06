@@ -11,9 +11,9 @@
                     <img src="{{ asset('images/close.png') }}" class="closebtn" onclick="closeNav()" alt="">
                     <div class="dropdown">
                         <div class="dropdown-links white-color">
-                            <a href="route('/')">Home1</a>
-                            <a href="shop.html">Merchandise Shop</a>
-                            <a href="contact.html">Contact</a>
+                            <a href="route('/')">Home</a>
+                            <a href="{{ route('shop') }}">Merchandise Shop</a>
+                            <a href="{{ route('contact') }}">Contact</a>
                         </div>
                         <div class="dropdown-socials">
                             <a id="instagram" href="instagram.com"></a>
@@ -53,7 +53,7 @@
             <h1>UNLEASHING GOLDEN VICTORIES!</h1>
             <p>Experience the Power and Precision of the Golden Fighters as We Dominate the E-Sports Arena.</p>
             <a href="#scroll-to-team">
-                <button type="button" name="button" class="white-color">Explore the Team</button></a>
+                <button type="button" name="button">Explore the Team</button></a>
         </div>
     </div>
 </section>
@@ -173,7 +173,7 @@
             <div class="slide">
                 <img src="images/merchandise-mouse.png" alt="">
                 <div class="slide-content">
-                    <a href="#detail-mouse.html">Experience Precision Gaming with the Golden Fighters Mouse</a>
+                    <a href="{{ route('detail-mouse') }}">Experience Precision Gaming with the Golden Fighters Mouse</a>
                     <div class="slide-shop-and-price">
                         <div class="slide-shop-and-wish">
                             <img src="images/nav-shopping-cart.svg" alt="">
@@ -186,7 +186,7 @@
             <div class="slide">
                 <img src="images/merchandise-shirt.png" alt="">
                 <div class="slide-content">
-                    <a href="#detail-shirt.html">Experience the Power of Victory with Our Golden Fighters Shirt</a>
+                    <a href="{{ route('detail-shirt') }}">Experience the Power of Victory with Our Golden Fighters Shirt</a>
                     <div class="slide-shop-and-price">
                         <div class="slide-shop-and-wish">
                             <img src="images/nav-shopping-cart.svg" alt="">
@@ -199,7 +199,7 @@
             <div class="slide">
                 <img src="images/merchandise-keyboard.png" alt="">
                 <div class="slide-content">
-                    <a href="#detail-keyboard.html">Golden Fighters Pro Gaming Keyboard</a>
+                    <a href="{{ route('detail-keyboard') }}">Golden Fighters Pro Gaming Keyboard</a>
                     <div class="slide-shop-and-price">
                         <div class="slide-shop-and-wish">
                             <img src="images/nav-shopping-cart.svg" alt="">
@@ -212,7 +212,7 @@
             <div class="slide">
                 <img src="images/merchandise-beanie.png" alt="">
                 <div class="slide-content">
-                    <a href="#detail-beanie.html">Golden Fighters Embroidered Beanie: StayWarm in Style</a>
+                    <a href="{{ route('detail-beanie') }}">Golden Fighters Embroidered Beanie: StayWarm in Style</a>
                     <div class="slide-shop-and-price">
                         <div class="slide-shop-and-wish">
                             <img src="images/nav-shopping-cart.svg"alt="">
@@ -224,12 +224,11 @@
             </div>
         </div>
 
-        <a class="slider-button" href="shop.html" target="_blank">Explore more</a>
+        <a class="slider-button" href="{{ route('shop') }}" target="_blank">Explore more</a>
 
     </section>
 </div>
-
-
+      <script src="{{ asset('js/index.js') }}"></script>
 </body>
 </html>
     </x-public-layout>

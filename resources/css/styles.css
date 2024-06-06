@@ -17,6 +17,10 @@ img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
 }
+img {
+  cursor: pointer;
+
+}
 input, button, textarea, select, a {
   font: inherit;
   -webkit-tap-highlight-color: transparent;
@@ -94,7 +98,7 @@ section, nav, footer {
 /* home page */
 /* navbar */
 .nav-and-hero {
-    background: linear-gradient(rgba(23, 23, 23, 0.5), rgba(23, 23, 23, 0.3)), url('../images/heroimg.png');
+  background: linear-gradient(rgba(23, 23, 23, 0.5), rgba(23, 23, 23, 0.3)), url(../images/heroimg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -186,13 +190,13 @@ img.closebtn {
   margin-left: 3rem;
 }
 #instagram {
-  background-image: url('../images/instagram.png');
+  background-image: url(../images/instagram.png);
 }
 #facebook {
-  background-image: url('..images/facebook.png');
+  background-image: url(../images/facebook.png);
 }
 #twitter {
-  background-image: url('..images/twitter.png');
+  background-image: url(../images/twitter.png);
 }
 .nav-shop-and-wish {
   display: flex;
@@ -217,7 +221,7 @@ img.nav-wish {
 .hero button {
   margin-top: 13rem;
   background-color: var(--color1);
-  color: black;
+  cursor: pointer;
 }
 /* end hero */
 /* team members */
@@ -363,6 +367,8 @@ a.slider-button {
   justify-self: center;
   text-decoration: none;
   padding: 2rem 5rem;
+  cursor: pointer;
+  border: 2px solid transparent;
 }
 /* end popular merchandise */
 /* footer */
@@ -398,17 +404,14 @@ footer {
   background-size: contain;
   height: 5rem;
 }
-
-
-
 #footer-instagram {
-  background-image: url('../images/instagram.png');
+  background-image: url(../images/instagram.png);
 }
 #footer-facebook {
-  background-image: url('../images/facebook.png');
+  background-image: url(../images/facebook.png);
 }
 #footer-twitter {
-  background-image: url('../images/twitter.png');
+  background-image: url(../images/twitter.png);
 }
 .footer-social-icons a:not(:last-child) {
   margin-right: 2rem;
@@ -488,6 +491,22 @@ button.filter-btn, button.sort-btn {
 /* end shop page */
 
 /* detail page */
+.slide-shop-and-price-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.prev-next {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prev-next a {
+  font-size: 5rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color1);
+}
 .detail-colors {
   display: flex;
   flex-direction: row;
@@ -556,6 +575,21 @@ p.detail-background-p-phone {
 .detail-cart {
   display: inline-flex;
   align-items: center;
+  cursor: pointer;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+.actions a {
+  text-decoration: none;
+  color: var(--color2);
+}
+.description-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color1);
+  text-decoration-thickness: 2px;
+  font-weight: 600;
 }
 /* end detail page */
 /* contact page */
@@ -765,9 +799,6 @@ label {
   .slide-content {
     margin-top: 1rem;
   }
-  .slide-shop-and-price {
-    margin-top: 1.5rem;
-  }
   .slide-shop-and-wish img {
     width: 3rem;
   }
@@ -879,6 +910,9 @@ label {
   /* end merchandise gallery */
   /* end shop page */
   /* detail page */
+  .prev-next a {
+    font-size: 2.5rem;
+  }
   h2.detail-h2-desktop {
     text-align: left;
     width: 27rem;
@@ -1001,9 +1035,22 @@ button:hover {
 a:hover {
   text-decoration-color: var(--color2);
 }
+.actions a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color1);
+  text-decoration-thickness: 2px;
+}
+a.slider-button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid var(--color1);
+}
 input[type=submit]:hover {
   background-color: white;
   color: black;
   border: 2px solid var(--color1);
+}
+.prev-next a:hover {
+  color: var(--color2);
 }
 /* end hover */

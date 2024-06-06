@@ -16,6 +16,41 @@ Route::get('/contact', function () {
    return view('contact');
 })->name('contact');
 
+
+
+
+Route::get('/detail-beanie', function () {
+   return view('detail-beanie');
+})->name('detail-beanie');
+
+Route::get('/detail-controller', function () {
+   return view('detail-controller');
+})->name('detail-controller');
+
+Route::get('/detail-headphones', function () {
+   return view('detail-headphones');
+})->name('detail-headphones');
+
+Route::get('/detail-keyboard', function () {
+   return view('detail-keyboard');
+})->name('detail-keyboard');
+
+Route::get('/detail-mouse', function () {
+   return view('detail-mouse');
+})->name('detail-mouse');
+
+Route::get('/detail-shirt', function () {
+   return view('detail-shirt');
+})->name('detail-shirt');
+
+
+
+
+
+Route::view('/', 'index')->name('home');
+Route::view('/index', 'index')->name('index');
+
+
 // Route::name('public.')->group(function () {
 //     Route::view('/', 'index')->name('home');
 //     Route::view('/products', 'products')->name('products');

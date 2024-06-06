@@ -9,9 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&family=Teachers:ital@0;1&display=swap" rel="stylesheet">
 
     {{--    styling --}}
-    @vite(['resources/css/styles.css', 'resources/js/js.js'])
+    @vite(['resources/css/styles.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-    <script src="{{ asset('js/js.js') }}"></script>
 </head>
 <body>
 
