@@ -72,7 +72,7 @@
   <!-- items -->
   <div class="shop-content-container">
     <div class="merchandise-item">
-      <img src="{{ asset('images/merchandise-mouse.png" alt="">
+      <img src="images/merchandise-mouse.png" alt="">
       <div class="slide-content">
         <a href="{{ route('detail-mouse') }}">Experience Precision Gaming with the Golden Fighters Mouse</a>
         <div class="slide-shop-and-price">

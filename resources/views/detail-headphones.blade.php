@@ -48,99 +48,114 @@
         </div>
       </div>
 
-    <!-- title -->
-        <h2 class="detail-h2-desktop">EXPERIENCE ULTIMATE CONTROL WITH THE TITAN ELITE GAMING CONTROLLER</h2>
-      </div>
-    </section>
+      <!-- title -->
+      <h2 class="detail-h2-desktop">IMMERSE YOURSELF IN VICTORY WITH GOLDEN FIGHTERS HEADPHONES</h2>
+    </div>
+  </section>
 
-    <div class="container detail-page-info-wrapper">
-      <div class="merchandise-item merchandise-item-detail">
-        <div class="slideshow-container">
+  <div class="container detail-page-info-wrapper">
+    <div class="merchandise-item merchandise-item-detail">
+      <div class="slideshow-container">
 
-          <div class="mySlides fade">
-            <img src="images/merchandise-controller.png" style="width:100%">
-          </div>
-
-          <div class="mySlides fade">
-            <img src="images/controller1.png" style="width:100%">
-          </div>
-
-          <div class="prev-next">
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-          </div>
+        <div class="mySlides fade">
+          <img src="images/merchandise-headphones.png" style="width:100%">
         </div>
 
-          <div >
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-          </div>
-          <div class="slide-shop-and-price-detail">
-            <div class="detail-colors">
-              <div class="detail-color-black"></div>
-              <div class="detail-color-white"></div>
-            </div>
-            <div class="slide-shop-and-wish shop-shop-and-wish">
-              <img src="images/heart-green.png" alt="">
-              <img src="images/nav-shopping-cart.svg" alt="">
-            </div>
-          </div>
-          <div class="detail-price">
-            <p>Price <em>200$</em></p>
-          </div>
-          <!-- different layout for phone and desktop -->
-          <p class="color-white detail-background-p-desktop">Unleash your full gaming potential with the Golden Fighters Elite Controller. Crafted for the ultimate gaming experience, this premium controller combines precision engineering with a sleek, luxurious design. Here's why the Golden Fighters Elite Controller stands out:</p>
-          <div class="detail-addtocart-and-wish-wrapper-desktop">
-            <div class="detail-addtocart-and-wish">
-              <button type="button" name="button" class="detail-cta-btn">
-                <span class="detail-cart">
-                  <span>Add to cart</span>
-                  <img src="images/shopping-cart-black.png"></img>
-                </span>
-              </button>
-              <img src="images/heart-green.png" alt="">
-            </div>
-          </div>
-      </div>
+        <div class="mySlides fade">
+          <img src="images/headphones1.png" style="width:100%">
+        </div>
 
-      <div class="product-description-wrapper">
-        <h3 class="highlighted-title product-title">PRODUCT DESCRIPTION</h3>
-        <article class="post">
-          <div class="product-description">
-            <p>Elevate your winter wardrobe with the Golden Fighters Embroidered Beanie, where cozy meets chic. Crafted from premium, ultra-soft fabric, this beanie promises to keep you warm while making a bold statement.
-            <br><span class="hidden-content" id="hidden-content"><span class="description-underline">Key Features:</span>
-    <br><strong>Precision Control:</strong> Enjoy unparalleled accuracy with advanced analog sticks and responsive buttons, designed to give you an edge in every game.
-    <br><strong>Ergonomic Design:</strong> Comfort meets performance with an ergonomic design that fits perfectly in your hands, reducing fatigue during extended gaming sessions.
-    <br><strong>Customizable Options:</strong> Tailor your controller to your play style with customizable button mapping and interchangeable thumbsticks and paddles.
-    <br><strong>Durable Build:</strong> Built to last, the Golden Fighters Elite Controller features high-quality materials and robust construction, ensuring it can withstand even the most intense gaming sessions.
-    <br><strong>Wireless Connectivity:</strong> Experience seamless gameplay with wireless connectivity that provides a lag-free, immersive gaming experience.
-    <br><strong>Rechargeable Battery:</strong> Play longer with a high-capacity rechargeable battery, designed to keep you in the game without frequent interruptions.
-    <br><strong>Enhanced Feedback:</strong> Feel every impact with enhanced haptic feedback and vibration motors that bring your games to life.</span></p>
-          </div>
-          <div class="actions">
-            <a href="#" class="button big" id="toggle-button" data-state="less">See More</a>
-          </div>
-        </article>
-      </div>
-    </div>
+        <div class="mySlides fade">
+          <img src="images/headphones2.png" style="width:100%">
+        </div>
 
-    <section class="detail-background-and-cta"> <!-- different layout for phone and desktop -->
-    <div class="container">
-        <p class="color-white detail-background-p-phone">Unleash your full gaming potential with the Golden Fighters Elite Controller. Crafted for the ultimate gaming experience, this premium controller combines precision engineering with a sleek, luxurious design. Here's why the Golden Fighters Elite Controller stands out:</p>
-      </div>
-      <div class="detail-addtocart-and-wish-wrapper-phone">
-        <div class="detail-addtocart-and-wish">
-          <button type="button" name="button" class="detail-cta-btn">
-            <span class="detail-cart">
-              <span>Add to cart</span>
-              <img src="images/shopping-cart-black.png"></img>
-            </span>
-          </button>
-          <img src="images/heart-green.png" alt="">
+        <div class="prev-next">
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
       </div>
+
+        <div >
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="slide-shop-and-price">
+          <div class="detail-colors">
+            <div class="detail-color-black"></div>
+            <div class="detail-color-white"></div>
+          </div>
+          <div class="slide-shop-and-wish shop-shop-and-wish">
+            <img src="images/heart-green.png" alt="">
+            <img src="images/nav-shopping-cart.svg" alt="">
+          </div>
+        </div>
+        <div class="detail-price">
+          <p>Price <em>180$</em></p>
+        </div>
+        <!-- different layout for phone and desktop -->
+        <p class="color-white detail-background-p-desktop">Unleash Your Inner Champion: With Golden Fighters Headphones, every sound is a victory. Get ready to conquer your audio world and immerse yourself in the ultimate auditory triumph.
+  Elevate your sound experience today. Victory awaits with Golden Fighters Headphones.</p>
+        <div class="detail-addtocart-and-wish-wrapper-desktop">
+          <div class="detail-addtocart-and-wish">
+            <button type="button" name="button" class="detail-cta-btn">
+              <span class="detail-cart">
+                <span>Add to cart</span>
+                <img src="images/shopping-cart-black.png"></img>
+              </span>
+            </button>
+            <img src="images/heart-green.png" alt="">
+          </div>
+        </div>
     </div>
-    </section>
+
+    <div class="product-description-wrapper">
+      <h3 class="highlighted-title product-title">PRODUCT DESCRIPTION</h3>
+      <article class="post">
+        <div class="product-description">
+          <p>Step into a world where sound meets supremacy with the Golden Fighters Headphones. Designed for champions who demand the best, these headphones deliver an unparalleled audio experience that will elevate your gaming, music, and entertainment to new heights.
+          <br><span class="hidden-content" id="hidden-content"><span class="description-underline">Key Features:</span>
+  <br><strong>Superior Sound Quality:</strong> Equipped with advanced audio technology, Golden Fighters Headphones provide crystal-clear sound and booming bass, ensuring you hear every detail and feel every beat.
+
+  <br><strong>Comfortable Design:</strong> Crafted with ergonomic precision, these headphones feature cushioned ear pads and an adjustable headband for hours of comfortable wear, whether you're in an intense gaming session or enjoying your favorite playlist.
+
+  <br><strong>Stunning Aesthetics:</strong> With a sleek, golden finish and modern design, Golden Fighters Headphones not only sound incredible but look exceptional. Stand out in style and show off your taste for the extraordinary.
+
+  <br><strong>Noise Cancellation:</strong> Block out distractions and immerse yourself fully in your audio experience. The active noise cancellation technology ensures that unwanted sounds stay out, and you stay focused.
+
+  <br><strong>Built-In Microphone:</strong> Communicate clearly with your team or take calls effortlessly with the integrated high-definition microphone. Your voice will be heard loud and clear, without any distortion.
+
+  <br><strong>Long Battery Life:</strong> Enjoy extended playtime with a powerful battery that keeps you connected for hours on end. The quick charge feature also ensures you're never left waiting.
+
+  <br><strong>Wireless Connectivity:</strong> Experience the freedom of wireless listening with seamless Bluetooth connectivity. Pair easily with your devices and enjoy the convenience of wireless technology.
+  </span></p>
+        </div>
+        <div class="actions">
+          <a href="#" class="button big" id="toggle-button" data-state="less">See More</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <section class="detail-background-and-cta"> <!-- different layout for phone and desktop -->
+  <div class="container">
+      <p class="color-white detail-background-p-phone">Unleash Your Inner Champion: With Golden Fighters Headphones, every sound is a victory. Get ready to conquer your audio world and immerse yourself in the ultimate auditory triumph.
+  Elevate your sound experience today. Victory awaits with Golden Fighters Headphones.</p>
+    </div>
+    <div class="detail-addtocart-and-wish-wrapper-phone">
+      <div class="detail-addtocart-and-wish">
+        <button type="button" name="button" class="detail-cta-btn">
+          <span class="detail-cart">
+            <span>Add to cart</span>
+            <img src="images/shopping-cart-black.png"></img>
+          </span>
+        </button>
+        <img src="images/heart-green.png" alt="">
+      </div>
+    </div>
+  </div>
+  </section>
 
 </body>
 </html>
